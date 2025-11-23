@@ -1,73 +1,115 @@
-# Welcome to your Lovable project
+🌐 Portfolio 
 
-## Project info
 
-**URL**: https://lovable.dev/projects/603b9b03-4ca4-4283-9a7b-9e597edce6d8
+Un portfolio moderne, responsive et animé, développé en React + Vite, avec gestion multilingue, composants shadcn-ui, et un design soigné sous Tailwind CSS.
 
-## How can I edit this code?
+Ce site présente mon parcours, mes projets, mes expériences et mes compétences techniques de manière professionnelle.
 
-There are several ways of editing your application.
+🚀 Technologies utilisées
 
-**Use Lovable**
+React 18
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/603b9b03-4ca4-4283-9a7b-9e597edce6d8) and start prompting.
+TypeScript
 
-Changes made via Lovable will be committed automatically to this repo.
+Vite
 
-**Use your preferred IDE**
+Tailwind CSS
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+shadcn/ui
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+i18n personnalisé (LanguageContext)
 
-Follow these steps:
+Framer Motion (animations)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Lucide Icons
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+📁 Fonctionnalités principales
+✔️ Mode multilingue
 
-# Step 3: Install the necessary dependencies.
-npm i
+Gestion custom via LanguageContext (FR/EN/ES… extensible).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+✔️ Sections du portfolio
+
+Hero
+
+About
+
+Compétences
+
+Projets
+
+Expériences
+
+Contact
+
+✔️ Projets avec catégories / technologies
+
+Affichage dynamique des projets (IA, hybridation, mécanique, Arduino, etc).
+
+✔️ Design responsive
+
+Optimisé pour mobile, tablette et desktop.
+🛠 Installation & développement
+1. Cloner le projet
+git clone <URL_DU_REPO>
+cd <NOM_DU_DOSSIER>
+
+2. Installer les dépendances
+npm install
+
+3. Lancer le serveur de développement
 npm run dev
-```
 
-**Edit a file directly in GitHub**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Le site sera disponible sur :
+👉 http://localhost:5173/
 
-**Use GitHub Codespaces**
+📦 Build pour la production
+npm run build
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
+Pour prévisualiser la version buildée :
 
-This project is built with:
+npm run preview
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+🚀 Déploiement
 
-## How can I deploy this project?
+Tu peux déployer le projet sur :
 
-Simply open [Lovable](https://lovable.dev/projects/603b9b03-4ca4-4283-9a7b-9e597edce6d8) and click on Share -> Publish.
+Vercel (recommandé)
 
-## Can I connect a custom domain to my Lovable project?
+Netlify
 
-Yes, you can!
+GitHub Pages
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Lovable (publish)
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📚 Structure du projet
+src/
+  components/
+  contexts/
+  sections/
+  assets/
+  translations/
+  App.tsx
+  main.tsx
+
+🤝 Contribution
+
+Les contributions sont les bienvenues :
+
+Fork
+
+Crée une branche
+
+Commit
+
+Push
+
+Ouvre une Pull Request
+
+📬 Contact
+
+Pour toute question ou opportunité :
+📧 contact : elmouatassem2004@gmail.com
+ (ou ce que tu veux mettre)
