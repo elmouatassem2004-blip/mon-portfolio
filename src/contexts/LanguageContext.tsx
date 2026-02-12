@@ -30,7 +30,7 @@ const translations = {
     "skills.certifications": "Certifications",
 
     // Education
-    "education.title": "Formation",
+    "education.title": "Analyse des défaillances matériaux et composants",
 
     // Experience
     "experience.title": "Expériences professionnelles",
