@@ -10,7 +10,7 @@ const experiences = [
     description: [
       "Réparation d'appareils",
       "Conseil client",
-      "Gestion administrative",
+      "Analyse des défaillances matériaux et composants",
     ],
   },
 ];
